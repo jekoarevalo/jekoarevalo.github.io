@@ -80,15 +80,13 @@ color:rgb(80, 80, 62);
 <section id="direct">
 <h1>Contact me</h1>
 
-<form action="contact.php" method="post">
-    Your name<br>
-    <input type="text" name="cf_name"><br>
-    Your e-mail<br>
-    <input type="text" name="cf_email"><br>
-    Message<br>
-    <textarea name="cf_message"><br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Clear">
+<form action="index.php" name="myform" method="POST">
+
+ Name: <input type="text" name="your_name">
+ E-mail: <input type="email" name="your_name">
+ Message: <textarea rows="5" cols="30">
+ <input type="submit" value="Send" name="submit">	
+ 
 </form>
 
 </section>

@@ -49,15 +49,24 @@ footer{
      font-family: 'Lobster', cursive;
      text-align: center;
    }
-
- #media {
-  color:rgb(80, 80, 62);
+   
+h1{
+color:rgb(80, 80, 62);
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: bold;
-	margin-top: 10px;
+	font-weight: bold;	
+	
+}
+
+ #media,#direct {
+        margin-top: 10px;
+	/*border: 1px solid #FFF;*/
+	padding: 10px;
+	text-align:center;
+	margin-top: 50px;
+	background-color:rgba(255,255,255,0.45);
  } 
 
   </style>
@@ -68,17 +77,32 @@ footer{
 <body>
   
 
+<section id="direct">
+<h1>Contact me</h1>
 
+<form action="contact.php" method="post">
+    Name<br>
+    <input type="text" name="cf_name"><br>
+    E-mail<br>
+    <input type="text" name="cf_email"><br>
+    Message<br>
+    <textarea name="cf_message"><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
 
+</section>
 
 
 <section id="media">
-Social Media
-<ul>
-<li><a href="https://www.facebook.com/jess.arevalo.39" target="_blank"> <img src="https://s-media-cache-ak0.pinimg.com/originals/71/4e/9a/714e9a85d7a11072b771167ebb9c0cdd.jpg " height="50" width="50" alt="Facebook"title="Facebook"></a></li>
-<li><a href="https://instagram.com/jekoarevalo/" target="_blank"> <img src="http://static1.squarespace.com/static/52292bc7e4b05c2be03c02fe/54e108aae4b066ba0302d34b/54e108ece4b065fefa571a4d/1424040642994/insta.png" height="50" width="50" alt="Instagram"title="Instagram" ></a></li>
-</ul>
+<h1> Social Media </h1>
+
+<a href="https://www.facebook.com/jess.arevalo.39" target="_blank"> <img src="https://s-media-cache-ak0.pinimg.com/originals/71/4e/9a/714e9a85d7a11072b771167ebb9c0cdd.jpg " height="50" width="50" alt="Facebook"title="Facebook"></a>
+<a href="https://instagram.com/jekoarevalo/" target="_blank"> <img src="http://static1.squarespace.com/static/52292bc7e4b05c2be03c02fe/54e108aae4b066ba0302d34b/54e108ece4b065fefa571a4d/1424040642994/insta.png" height="50" width="50" alt="Instagram"title="Instagram" ></a>
+
 </section>
+
+
 
 </body>
 

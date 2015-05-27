@@ -121,7 +121,13 @@ background: -webkit-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 
  
  table{
        color:rgb(224, 224, 224);
-       background-color: rgb(93, 93, 79);
+       background-color:
+  background: -webkit-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* W3C */
+         ;
        font-family: Helvetica;
 	font-size: 20px;
 	font-style: normal;

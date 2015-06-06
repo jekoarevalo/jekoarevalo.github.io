@@ -80,7 +80,12 @@ body{
 caption{
    font-weight:bold;
    font-size:18px;
-   background-color:#A1A1A1;
+   background: -webkit-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* W3C */
+  color:rgb(255, 255, 255) ;
 }
 
 table{
@@ -90,8 +95,7 @@ table{
   background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */
-        ;
-   color:rgb(255, 255, 255) ;
+  color:rgb(255, 255, 255) ;
    width:500px;
    margin: 0 auto;
    margin-top:20px;

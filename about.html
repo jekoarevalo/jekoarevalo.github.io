@@ -103,7 +103,7 @@
 
   
   p {
-   color: rgb(92, 92, 79);
+   color: rgb(255, 255, 255);
    font-family: Helvetica;
    font-size:20px;
    font-style:normal;
@@ -116,7 +116,12 @@
    
   /*border: 1px solid #FFF;*/
 	padding: 10px;
-	background-color:rgba(255,255,255,0.70);
+	background: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #232526 10%, #414345 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */
+
   }
   
  #profilepic  {

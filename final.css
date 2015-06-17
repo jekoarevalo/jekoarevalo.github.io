@@ -63,3 +63,11 @@
      font-size: 15px;
     margin-bottom: 13px;    
 }
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
